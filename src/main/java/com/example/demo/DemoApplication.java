@@ -15,8 +15,8 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/")
-	public String hello() {
-		return String.format("Hi family, Nishanth is still digitized... (but this time in Spring)");
+	public String index() {
+		return "Hi family, Nishanth is still digitized... (but this time in Spring Boot)";
 	}
 
 }
